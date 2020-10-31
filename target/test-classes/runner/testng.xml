@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> -->
+<suite name="Regression Testing">
+	<test name="Regression Test">
+
+		<listeners>
+			<listener
+				class-name="com.companyName.ProjectName.CustomListeners.ListenersB6" />
+		</listeners>
+
+		<classes>
+			<class name="com.companyName.ProjectName.TestCases.TC01_CreatAnAccountNewCustomer" />
+			<class name="com.companyName.ProjectName.TestCases.Login_Test2" />
+			<class name="com.companyName.ProjectName.TestCases.Login_Test3" />
+		</classes>
+
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

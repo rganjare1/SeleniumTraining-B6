@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression Testing]">
+  <listeners>
+    <listener class-name="com.companyName.ProjectName.CustomListeners.ListenersB6"/>
+  </listeners>
+  <test name="Regression Test(failed)">
+    <classes>
+      <class name="com.companyName.ProjectName.TestCases.Login_Test3">
+        <methods>
+          <include name="init"/>
+          <include name="login_Test3" invocation-numbers="0"/>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- com.companyName.ProjectName.TestCases.Login_Test3 -->
+      <class name="com.companyName.ProjectName.TestCases.Login_Test2">
+        <methods>
+          <include name="init"/>
+          <include name="login_Test2"/>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- com.companyName.ProjectName.TestCases.Login_Test2 -->
+    </classes>
+  </test> <!-- Regression Test(failed) -->
+</suite> <!-- Failed suite [Regression Testing] -->

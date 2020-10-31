@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Testing Suite]">
+  <test name="Regression Test(failed)">
+    <classes>
+      <class name="com.companyName.ProjectName.TestCases.Login_Test3">
+        <methods>
+          <include name="init"/>
+          <include name="login_Test3"/>
+          <include name="LaunchBrowser"/>
+          <include name="isSkip"/>
+          <include name="flushExtentReport"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.companyName.ProjectName.TestCases.Login_Test3 -->
+      <class name="com.companyName.ProjectName.TestCases.Login_Test2">
+        <methods>
+          <include name="init"/>
+          <include name="login_Test2"/>
+          <include name="LaunchBrowser"/>
+          <include name="flushExtentReport"/>
+          <include name="isSkip"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.companyName.ProjectName.TestCases.Login_Test2 -->
+    </classes>
+  </test> <!-- Regression Test(failed) -->
+</suite> <!-- Failed suite [Regression Testing Suite] -->
