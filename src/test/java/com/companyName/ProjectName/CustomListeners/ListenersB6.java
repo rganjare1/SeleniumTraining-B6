@@ -49,8 +49,8 @@ public class ListenersB6 extends TestBase implements ITestListener{
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		}
-		
-		teardown();
+       test.log(LogStatus.FAIL, testCaseName+" Test case has been failed");
+       teardown();
 		
 	}
 

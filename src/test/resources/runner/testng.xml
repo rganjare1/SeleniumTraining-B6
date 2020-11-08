@@ -10,8 +10,8 @@
 
 		<classes>
 			<class name="com.companyName.ProjectName.TestCases.TC01_CreatAnAccountNewCustomer" />
-			<class name="com.companyName.ProjectName.TestCases.Login_Test2" />
-			<class name="com.companyName.ProjectName.TestCases.Login_Test3" />
+			<class name="com.companyName.ProjectName.TestCases.TC02_VerfityAlreadyRegisterUser" />
+			<class name="com.companyName.ProjectName.TestCases.TC03_CreateNewAndVerifyExistingUser" />
 		</classes>
 
 
