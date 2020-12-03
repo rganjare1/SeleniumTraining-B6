@@ -6,13 +6,6 @@
   </listeners>
   <test name="Regression Test(failed)">
     <classes>
-      <class name="com.companyName.ProjectName.TestCases.TC03_CreateNewAndVerifyExistingUser">
-        <methods>
-          <include name="init"/>
-          <include name="createNewAndVerifyExistingUser"/>
-          <include name="isSkip"/>
-        </methods>
-      </class> <!-- com.companyName.ProjectName.TestCases.TC03_CreateNewAndVerifyExistingUser -->
       <class name="com.companyName.ProjectName.TestCases.TC01_CreatAnAccountNewCustomer">
         <methods>
           <include name="creatAnAccountNewCustomer" invocation-numbers="0"/>
@@ -20,13 +13,6 @@
           <include name="isSkip"/>
         </methods>
       </class> <!-- com.companyName.ProjectName.TestCases.TC01_CreatAnAccountNewCustomer -->
-      <class name="com.companyName.ProjectName.TestCases.TC02_VerfityAlreadyRegisterUser">
-        <methods>
-          <include name="verfityAlreadyRegisterUser"/>
-          <include name="init"/>
-          <include name="isSkip"/>
-        </methods>
-      </class> <!-- com.companyName.ProjectName.TestCases.TC02_VerfityAlreadyRegisterUser -->
     </classes>
   </test> <!-- Regression Test(failed) -->
 </suite> <!-- Failed suite [Regression Testing] -->

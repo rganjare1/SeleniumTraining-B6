@@ -1,4 +1,4 @@
-package com.companyName.ProjectName.rough;
+package com.companyName.ProjectName.Interface;
 
 public class SBI implements RBI {
 

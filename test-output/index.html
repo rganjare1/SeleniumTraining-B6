@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 1 failed,  2 skipped,  </span>
+                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -108,23 +108,23 @@
                     </div> <!-- method-list-content failed suite-Regression_Testing -->
                   </li>
                   <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Regression_Testing" class="hide-methods skipped suite-Regression_Testing"> (hide)</a> <!-- hide-methods skipped suite-Regression_Testing -->
-                      <a href="#" panel-name="suite-Regression_Testing" class="show-methods skipped suite-Regression_Testing"> (show)</a> <!-- show-methods skipped suite-Regression_Testing -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Regression_Testing" class="hide-methods passed suite-Regression_Testing"> (hide)</a> <!-- hide-methods passed suite-Regression_Testing -->
+                      <a href="#" panel-name="suite-Regression_Testing" class="show-methods passed suite-Regression_Testing"> (show)</a> <!-- show-methods passed suite-Regression_Testing -->
                     </span>
-                    <div class="method-list-content skipped suite-Regression_Testing">
+                    <div class="method-list-content passed suite-Regression_Testing">
                       <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Testing" title="com.companyName.ProjectName.TestCases.TC03_CreateNewAndVerifyExistingUser" hash-for-method="createNewAndVerifyExistingUser">createNewAndVerifyExistingUser</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Testing" title="com.companyName.ProjectName.TestCases.TC03_CreateNewAndVerifyExistingUser" hash-for-method="createNewAndVerifyExistingUser({Name=Vivek, Page_Title=My Store, Contact_No=23131324, Email_ID=loginTest12346@test.com, Address=Mum...)">createNewAndVerifyExistingUser({Name=Vivek, Page_Title=My Store, Contact_No=23131324, Email_ID=loginTest12346@test.com, Address=Mum...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Testing" title="com.companyName.ProjectName.TestCases.TC02_VerfityAlreadyRegisterUser" hash-for-method="verfityAlreadyRegisterUser">verfityAlreadyRegisterUser</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Testing" title="com.companyName.ProjectName.TestCases.TC02_VerfityAlreadyRegisterUser" hash-for-method="verfityAlreadyRegisterUser({Name=Swati, Page_Title=My Store, Contact_No=23131324, Email_ID=loginTest12345@test.com, Password=ab...)">verfityAlreadyRegisterUser({Name=Swati, Page_Title=My Store, Contact_No=23131324, Email_ID=loginTest12345@test.com, Password=ab...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content skipped suite-Regression_Testing -->
+                    </div> <!-- method-list-content passed suite-Regression_Testing -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -148,58 +148,67 @@
                   </a> <!-- creatAnAccountNewCustomer({Year=1990, Contact_No=23131324, Month=May, Name=Ruchita, Address=Pune, Email_ID=loginTest12346@test...) -->
                   <span class="method-name">creatAnAccountNewCustomer</span>
                   <span class="parameters">({Year=1990, Contact_No=23131324, Month=May, Name=Ruchita, Address=Pune, Email_ID=loginTest12346@test.com, Password=dadad@dad21, LastName=XYZ, Day=5, FirstName=Ruchita, Page_Title=My Store})</span>
-                  <div class="stack-trace">java.lang.AssertionError: Issue while selecting value from dropdown:-Cannot locate option with value: May
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=86.0.4240.111)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
 Build info: version: &apos;3.141.5&apos;, revision: &apos;d54ebd709a&apos;, time: &apos;2018-11-06T11:42:16&apos;
 System info: host: &apos;LIN51007546&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
-Driver info: driver.version: unknown
-	at com.companyName.ProjectName.utilities.CommonMethods.selectByValue(CommonMethods.java:96)
-	at com.companyName.ProjectName.pages.PersonalInfomation.enterPersonalInformation(PersonalInfomation.java:26)
-	at com.companyName.ProjectName.TestCases.TC01_CreatAnAccountNewCustomer.creatAnAccountNewCustomer(TC01_CreatAnAccountNewCustomer.java:27)
-... Removed 26 stack frames
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\rganjare\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50955}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 86.0.4240.111, webStorageEnabled: true}
+Session ID: b11bc6cb6058dc2e60c75855c4c0367b
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)
+	at com.companyName.ProjectName.utilities.CommonMethods.getpageTitle(CommonMethods.java:40)
+	at com.companyName.ProjectName.pages.HomePage.createAnAccountNewUsers(HomePage.java:14)
+	at com.companyName.ProjectName.TestCases.TC01_CreatAnAccountNewCustomer.creatAnAccountNewCustomer(TC01_CreatAnAccountNewCustomer.java:25)
+... Removed 29 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Regression_Testing-class-failed -->
-          <div class="suite-Regression_Testing-class-skipped">
+          <div class="suite-Regression_Testing-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="passed.png"/>
               <span class="class-name">com.companyName.ProjectName.TestCases.TC03_CreateNewAndVerifyExistingUser</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="createNewAndVerifyExistingUser">
-                  </a> <!-- createNewAndVerifyExistingUser -->
+                  <a name="createNewAndVerifyExistingUser({Name=Vivek, Page_Title=My Store, Contact_No=23131324, Email_ID=loginTest12346@test.com, Address=Mum...)">
+                  </a> <!-- createNewAndVerifyExistingUser({Name=Vivek, Page_Title=My Store, Contact_No=23131324, Email_ID=loginTest12346@test.com, Address=Mum...) -->
                   <span class="method-name">createNewAndVerifyExistingUser</span>
-                  <div class="stack-trace">org.testng.SkipException: Skipping Test case as it&apos;s Run Mode is set to N
-	at com.companyName.ProjectName.TestCases.TC03_CreateNewAndVerifyExistingUser.isSkip(TC03_CreateNewAndVerifyExistingUser.java:19)
-... Removed 25 stack frames
-</div> <!-- stack-trace -->
+                  <span class="parameters">({Name=Vivek, Page_Title=My Store, Contact_No=23131324, Email_ID=loginTest12346@test.com, Address=Mumbai})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Regression_Testing-class-skipped -->
-          <div class="suite-Regression_Testing-class-skipped">
+          </div> <!-- suite-Regression_Testing-class-passed -->
+          <div class="suite-Regression_Testing-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="passed.png"/>
               <span class="class-name">com.companyName.ProjectName.TestCases.TC02_VerfityAlreadyRegisterUser</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verfityAlreadyRegisterUser">
-                  </a> <!-- verfityAlreadyRegisterUser -->
+                  <a name="verfityAlreadyRegisterUser({Name=Swati, Page_Title=My Store, Contact_No=23131324, Email_ID=loginTest12345@test.com, Password=ab...)">
+                  </a> <!-- verfityAlreadyRegisterUser({Name=Swati, Page_Title=My Store, Contact_No=23131324, Email_ID=loginTest12345@test.com, Password=ab...) -->
                   <span class="method-name">verfityAlreadyRegisterUser</span>
-                  <div class="stack-trace">org.testng.SkipException: Skipping Test case as it&apos;s Run Mode is set to N
-	at com.companyName.ProjectName.TestCases.TC02_VerfityAlreadyRegisterUser.isSkip(TC02_VerfityAlreadyRegisterUser.java:19)
-... Removed 25 stack frames
-</div> <!-- stack-trace -->
+                  <span class="parameters">({Name=Swati, Page_Title=My Store, Contact_No=23131324, Email_ID=loginTest12345@test.com, Password=abcd123, Address=Noida})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Regression_Testing-class-skipped -->
+          </div> <!-- suite-Regression_Testing-class-passed -->
         </div> <!-- panel Regression_Testing -->
         <div panel-name="test-xml-Regression_Testing" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -261,20 +270,20 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'creatAnAccountNewCustomer')
 data.setCell(0, 2, 'com.companyName.ProjectName.TestCases.TC01_CreatAnAccountNewCustomer')
-data.setCell(0, 3, 35267);
+data.setCell(0, 3, 205833);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'verfityAlreadyRegisterUser')
 data.setCell(1, 2, 'com.companyName.ProjectName.TestCases.TC02_VerfityAlreadyRegisterUser')
-data.setCell(1, 3, 0);
+data.setCell(1, 3, 14511);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'createNewAndVerifyExistingUser')
 data.setCell(2, 2, 'com.companyName.ProjectName.TestCases.TC03_CreateNewAndVerifyExistingUser')
-data.setCell(2, 3, 0);
+data.setCell(2, 3, 14304);
 window.suiteTableData['Regression_Testing']= { tableData: data, tableDiv: 'times-div-Regression_Testing'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 35 seconds</span>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
               <div id="times-div-Regression_Testing">
               </div> <!-- times-div-Regression_Testing -->
             </div> <!-- times-div -->
@@ -321,28 +330,36 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">isSkip</span>
-                <span class="method-start">243 ms</span>
+                <span class="method-start">105 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">creatAnAccountNewCustomer({Year=1990, Contact_No=23131324, Month=May, Name=Ruchita, Address=Pune, Email_ID=loginTest12346@test...)</span>
-                <span class="method-start">269 ms</span>
+                <span class="method-start">116 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.companyName.ProjectName.TestCases.TC02_VerfityAlreadyRegisterUser</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">isSkip</span>
-                <span class="method-start">37580 ms</span>
+                <span class="method-start">207080 ms</span>
               </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verfityAlreadyRegisterUser({Name=Swati, Page_Title=My Store, Contact_No=23131324, Email_ID=loginTest12345@test.com, Password=ab...)</span>
+                <span class="method-start">207082 ms</span>
+              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.companyName.ProjectName.TestCases.TC03_CreateNewAndVerifyExistingUser</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">isSkip</span>
-                <span class="method-start">37591 ms</span>
+                <span class="method-start">222583 ms</span>
               </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">createNewAndVerifyExistingUser({Name=Vivek, Page_Title=My Store, Contact_No=23131324, Email_ID=loginTest12346@test.com, Address=Mum...)</span>
+                <span class="method-start">222585 ms</span>
+              </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

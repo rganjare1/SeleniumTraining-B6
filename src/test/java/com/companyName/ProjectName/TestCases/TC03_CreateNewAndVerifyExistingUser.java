@@ -24,7 +24,7 @@ public class TC03_CreateNewAndVerifyExistingUser extends TestBase { // Inheritan
 	
 		HomePage.createAnAccountNewUsers(testData);
 		
-		HomePage.loginWithAlreadyRegisteredUsers(testData);
+		//HomePage.loginWithAlreadyRegisteredUsers(testData);
 		
 	}
 

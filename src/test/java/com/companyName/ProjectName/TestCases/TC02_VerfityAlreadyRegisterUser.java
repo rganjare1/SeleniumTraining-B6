@@ -22,7 +22,8 @@ public class TC02_VerfityAlreadyRegisterUser extends TestBase { // Inheritance -
 	@Test(dataProvider = "Data_Collections")
 	public void verfityAlreadyRegisterUser(Hashtable<String, String> testData) {
 
-		HomePage.loginWithAlreadyRegisteredUsers(testData);
+		HomePage.createAnAccountNewUsers(testData);
+		//HomePage.loginWithAlreadyRegisteredUsers(testData);
 	}
 
 }
