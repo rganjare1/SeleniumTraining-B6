@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="36.615" tests="3" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_161\jre\bin"/>
+    <property name="java.vm.version" value="25.161-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\BatchNo6_MVN_Project_New"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\BatchNo6_MVN_Project_New"/>
+    <property name="java.runtime.version" value="1.8.0_161-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_161\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\ProgramData\chocolatey\lib\maven\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.6.3/bin;C:\Program Files (x86)\Java\jdk1.8.0_161/bin;C:\Program Files (x86)\Java\jdk1.8.0_161/bin;C:\Python38\Scripts\;C:\Python38\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_231\bin;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.6.3\bin;C:\Program Files (x86)\PuTTY\;C:\Program Files\Amazon\AWSCLI\bin\;C:\Automation_Testing\Softwares\terraform_Setup;C:\Go\bin;C:\ProgramData\chocolatey\bin;C:\Automation_Testing\Softwares\apache-maven-3.6.2\bin;C:\Program Files\nodejs\;C:\Program Files\Git\bin;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;;C:\Users\rganjare\AppData\Roaming\Cloud Foundry;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="maven.conf" value="C:\ProgramData\chocolatey\lib\maven\apache-maven-3.6.3\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\ProgramData\chocolatey\lib\maven\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="LIN51007546$"/>
+    <property name="java.class.path" value="C:\ProgramData\chocolatey\lib\maven\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.8.0_161\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -f C:\Automation_Testing\WorkSpace\BatchNo6_MVN_Project\pom.xml clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="1.8.0_161"/>
+    <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_161\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.8.0_161\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_161\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\ProgramData\chocolatey\lib\maven\apache-maven-3.6.3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase name="creatAnAccountNewCustomer" classname="com.companyName.ProjectName.TestCases.TC01_CreatAnAccountNewCustomer" time="25.685">
+    <failure message="Issue while selecting value from dropdown:-Cannot locate option with value: May&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.5&apos;, revision: &apos;d54ebd709a&apos;, time: &apos;2018-11-06T11:42:16&apos;&#10;System info: host: &apos;LIN51007546&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;&#10;Driver info: driver.version: unknown" type="java.lang.AssertionError">java.lang.AssertionError: Issue while selecting value from dropdown:-Cannot locate option with value: May
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'LIN51007546', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: unknown
+	at org.testng.Assert.fail(Assert.java:96)
+	at com.companyName.ProjectName.utilities.CommonMethods.selectByValue(CommonMethods.java:96)
+	at com.companyName.ProjectName.pages.PersonalInfomation.enterPersonalInformation(PersonalInfomation.java:26)
+	at com.companyName.ProjectName.TestCases.TC01_CreatAnAccountNewCustomer.creatAnAccountNewCustomer(TC01_CreatAnAccountNewCustomer.java:27)
+</failure>
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+Config file has been loaded
+OR file has been loaded
+ExtentReports path has been set has been loaded
+Number of rows:-6
+{TC03_CreateNewAndVerifyExistingUser=Y, TC001_Create_an_Account5=N, TC001_Create_an_Account4=N, TC02_VerfityAlreadyRegisterUser=Y, TC01_CreatAnAccountNewCustomer=Y}
+TC01_CreatAnAccountNewCustomer test case starts from row number :- 1
+Total number of columns are:- 11
+Total number of iterations/rows are :- 1
+***************************************************
+
+----{Year=1990, Contact_No=23131324, Month=May, Name=Ruchita, Address=Pune, Email_ID=loginTest12346@test.com, Password=dadad@dad21, LastName=XYZ, Day=5, FirstName=Ruchita, Page_Title=My Store}
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38) on port 11894
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Dec 06, 2020 9:50:20 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+log4j:WARN No appenders could be found for logger (freemarker.cache).
+log4j:WARN Please initialize the log4j system properly.
+]]></system-err>
+  </testcase>
+  <testcase name="verfityAlreadyRegisterUser" classname="com.companyName.ProjectName.TestCases.TC02_VerfityAlreadyRegisterUser" time="5.157"/>
+  <testcase name="createNewAndVerifyExistingUser" classname="com.companyName.ProjectName.TestCases.TC03_CreateNewAndVerifyExistingUser" time="5.773"/>
+</testsuite>

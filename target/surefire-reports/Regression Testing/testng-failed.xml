@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Regression Testing]">
+  <listeners>
+    <listener class-name="com.companyName.ProjectName.CustomListeners.ListenersB6"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Regression Test(failed)">
+    <classes>
+      <class name="com.companyName.ProjectName.TestCases.TC01_CreatAnAccountNewCustomer">
+        <methods>
+          <include name="creatAnAccountNewCustomer" invocation-numbers="0"/>
+          <include name="init"/>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- com.companyName.ProjectName.TestCases.TC01_CreatAnAccountNewCustomer -->
+    </classes>
+  </test> <!-- Regression Test(failed) -->
+</suite> <!-- Failed suite [Regression Testing] -->

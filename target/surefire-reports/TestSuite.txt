@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 85.029 sec <<< FAILURE! - in TestSuite
+creatAnAccountNewCustomer(com.companyName.ProjectName.TestCases.TC01_CreatAnAccountNewCustomer)  Time elapsed: 25.685 sec  <<< FAILURE!
+java.lang.AssertionError: Issue while selecting value from dropdown:-Cannot locate option with value: May
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'LIN51007546', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: unknown
+	at org.testng.Assert.fail(Assert.java:96)
+	at com.companyName.ProjectName.utilities.CommonMethods.selectByValue(CommonMethods.java:96)
+	at com.companyName.ProjectName.pages.PersonalInfomation.enterPersonalInformation(PersonalInfomation.java:26)
+	at com.companyName.ProjectName.TestCases.TC01_CreatAnAccountNewCustomer.creatAnAccountNewCustomer(TC01_CreatAnAccountNewCustomer.java:27)
+
